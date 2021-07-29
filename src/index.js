@@ -4,4 +4,11 @@ const Person = {
     age:23
 }
 
+const Dog = {
+    name: "Sam",
+    Favorite_Food: "Chicken",
+    age:8
+}
+
 console.log(Person);
+console.log(Dog);

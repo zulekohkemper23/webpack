@@ -1,8 +1,9 @@
-module.exports ={
-    mode:"development",
 
-    devtool:false,
-    devServer:{
+module.exports = {
+    mode: "development",
+
+    devtool:"source-map",
+    devServer: {
         contentBase: "./dist",
     },
 };

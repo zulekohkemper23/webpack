@@ -13,7 +13,7 @@ const InputDisplayer = () => {
         <hr /> <br />
         <ul>
             {history.map(record => {
-               return <li key="{record}">{record}</li>
+               return <li key={record}>{record}</li>
             })}
 
         </ul>

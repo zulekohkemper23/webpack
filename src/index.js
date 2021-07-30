@@ -12,3 +12,4 @@ const Dog = {
 
 console.log(Person);
 console.log(Dog);
+console.log("Hello")

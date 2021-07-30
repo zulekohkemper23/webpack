@@ -12,10 +12,9 @@ const InputDisplayer = () => {
         {inputText}
         <hr /> <br />
         <ul>
-            {history.map(record => {
-               return <li key={record}>{record}</li>
+            {history.map((record,index) => {
+               return <li key={index}>{record}</li>
             })}
-
         </ul>
     </div>
 }
